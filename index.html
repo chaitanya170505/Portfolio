@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/x-icon" href="./assets/favi.png">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light header-style">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="/">
+                    <img src="./assets/logo.svg" alt="Logo" width="40" height="38" class="circle-img">
+                    <span class="fs-4 ms-2">Chaitanya_M</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item "><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="home hidden-content" id="home">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="./assets/profile-photo.png" class="d-block mx-lg-auto img-fluid circle-img custom-img"
+                        alt="Profile Photo" width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="display-5 fw-bold text-white lh-1 mb-3 smaller-h3">Hi, Myself</h3>
+                    <h1 class="display-5 fw-bold text-white lh-1 mb-3">Chaitanya Mogalla</h1>
+                    <h3 class="display-5 fw-bold text-white lh-1 mb-3 smaller-h3">And I'm a <span class="profession">
+                            <div class="typing-container">
+                                <p id="typewriter"></p>
+                            </div>
+                        </span>
+                    </h3>
+                    <p class="lead text-white welcome">
+                        Welcome to my portfolio! I am Chaitanya Mogalla, an aspiring Full Stack Developer.
+                    </p>
+                    <br>
+                    <div class="social-container">
+                        <a href="https://github.com/ChaitanyaSaiMogalla" style="color: white; text-decoration: none;" target="_blank"><div class="git social-border"><i class="fa-brands fa-github inner-social"></i></div></a>
+                        <a href="https://www.linkedin.com/in/chaitanya-mogalla-811221301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style="color: white; text-decoration: none;" target="_blank"><div class="linkedin social-border"><i class="fa-brands fa-linkedin inner-social"></i></div></a>
+                        <a href="https://www.instagram.com/_m_chaitanya__?igsh=ZHNxeWxzNjkxYmgz" style="color: white; text-decoration: none; " target="_blank"><div class="instagram social-border"><i class="fa-brands fa-instagram inner-social"></i></div></a>
+                        <a href="https://x.com/ChaitanyaM1718" style="color: white; text-decoration: none;" target="_blank"><div class="twitter social-border"><i class="fa-brands fa-twitter inner-social"></i></div></a>
+                    </div>
+                    <br>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 resume_btn" id="resume-btn">Resume</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about hidden-content" id="about">
+        <div class="container base-info">
+            <h2 class="about-title">About Me</h2>
+
+            <hr><br>
+
+            <div>
+                <p>I am an Aspiring Full Stack Web Developer, currently pursuing my B.Tech in Computer Science and
+                    Engineering.</p>
+                <ul>
+                    <li class="d-flex">
+                        <span class="label"><strong>Name:</strong></span>
+                        <span class="value">Mogalla Chaitanya Sai Phanidhar</span>
+                    </li>
+
+                    <li class="d-flex">
+                        <span class="label"><strong>Profile:</strong></span>
+                        <span class="value">Full Stack Web Developer</span>
+                    </li>
+
+                    <li class="d-flex">
+                        <span class="label"><strong>Education:</strong></span>
+                        <span class="value">Currently Pursuing B.Tech in Computer Science and Engineering</span>
+                    </li>
+
+                    <li class="d-flex">
+                        <span class="label"><strong>Language:</strong></span>
+                        <span class="value">English (Fluent), Telugu (Native), Hindi (Conversational)</span>
+                    </li>
+
+                    <li class="d-flex">
+                        <span class="label"><strong>Other Skills:</strong></span>
+                        <span class="value">DSA, OOP, Canva & Figma Designing</span>
+                    </li>
+
+                    <li class="d-flex">
+                        <span class="label"><strong>Summary:</strong></span>
+                        <span class="value">A good learner, with a never-ending zeal to embrace new technologies and
+                            enhance existing skills.</span>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="education hidden-content" id="education">
+
+        <h2 class="edu-heading">Education</h2>
+
+        <hr><br>
+
+        <div class="education-container">
+            <div class="edu-child">
+                <i class="fa-solid fa-school"></i>
+                <h3 class="edu-year">2010 to 2015</h3>
+                <h4>Primary Education (Grades 1 to 5)</h4>
+                <p class="edu-para">Completed my primary education at AMALODBHAVI E.M HIGH SCHOOL.</p>
+            </div>
+
+            <div class="edu-child">
+                <i class="fa-solid fa-school"></i>
+                <h3 class="edu-year">2015 to 2020</h3>
+                <h4>Upper Primary Education (Grades 6 to 10)</h4>
+                <p class="edu-para">Completed my upper primary education at BHASHYAM E.M HIGH SCHOOL.</p>
+            </div>
+
+            <div class="edu-child">
+                <i class="fa-solid fa-school"></i>
+                <h3 class="edu-year">2020 to 2022</h3>
+                <h4>Intermediate Education (Grades 11 and 12)</h4>
+                <p class="edu-para">Completed my intermediate education at SRI CHAITANYA JUNIOR COLLEGE.</p>
+            </div>
+
+            <div class="edu-child">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3 class="edu-year">2022 to Present</h3>
+                <h4>Engineering Education</h4>
+                <p class="edu-para">Currently pursuing my B.Tech in Computer Science and Engineering at Sir C.R.
+                    REDDY COLLEGE OF ENGINEERING.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="skills hidden-content" id="skills">
+        <h2 class="skills-heading">Skills & Languages</h2>
+
+        <hr> <br>
+
+        <div class="skill-parent">
+
+            <div class="skill-container">
+
+                <h2>Frontend</h2>
+
+                <div class="skill-section1">
+                    <div class="frontend-container scroll-content1">
+                        <div class="card-skill">
+                            <img src="./assets/html.png" style="width:100%">
+                            <h3>HTML5</h3>
+                        </div>
+                        <div class="card-skill">
+                            <img src="./assets/css.png" style="width:100%">
+                            <h3>CSS3</h3>
+                        </div>
+                        <div class="card-skill">
+                            <img src="./assets/javascript.png" style="width:100%">
+                            <h3>JavaScript</h3>
+                        </div>
+                        <div class="card-skill">
+                            <img src="./assets/bootstrap.png" style="width:100%">
+                            <h3>Bootstrap</h3>
+                        </div>
+                        <div class="card-skill">
+                            <img src="./assets/jquery.png" style="width:100%">
+                            <h3>jQuery</h3>
+                        </div>
+                        <button class="scroll-btn left-btn" onclick="scrollLeft1()">&#8249;</button>
+                        <button class="scroll-btn right-btn" onclick="scrollRight(1)">&#8250;</button>
+                    </div>
+                </div>
+
+
+                <h2>Backend</h2>
+                <div class="skill-section2">
+                        <div class="backend-container scroll-content2">
+                            <div class="card-skill">
+                                <img src="./assets/nodejs.png" style="width:100%">
+                                <h3>Node.js</h3>
+                            </div>
+                            <div class="card-skill">
+                                <img src="./assets/express.png" style="width:100%">
+                                <h3>Express.js</h3>
+                            </div>
+                            <div class="card-skill">
+                                <img src="./assets/ejs.png" style="width:100%">
+                                <h3>EJS</h3>
+                            </div>
+                            <div class="card-skill rest">
+                                <img src="./assets/rest api.png" style="width:100%">
+                                <h3>REST API</h3>
+                            </div>
+                            <div class="card-skill">
+                                <img src="./assets/postgresql.png" style="width:100%">
+                                <h3>PostgreSQL</h3>
+                            </div>
+                            <button class="scroll-btn left-btn" onclick="scrollLeft2()">&#8249;</button>
+                            <button class="scroll-btn right-btn" onclick="scrollRight(2)">&#8250;</button>
+                        </div>
+                </div>
+
+                <h2>Others</h2>
+                <div class="skill-section3">
+                        <div class="other-skill-container scroll-content3">
+                            <div class="card-skill">
+                                <img src="./assets/c.png" style="width:100%">
+                                <h3>C</h3>
+                            </div>
+                            <div class="card-skill">
+                                <img src="./assets/c++.png" style="width:100%">
+                                <h3>C++</h3>
+                            </div>
+                            <div class="card-skill">
+                                <img src="./assets/git.png" style="width:100%">
+                                <h3>Git</h3>
+                            </div>
+                            <div class="card-skill">
+                                <img src="./assets/canva.png" style="width:100%">
+                                <h3>Canva</h3>
+                            </div>
+                            <div class="card-skill">
+                                <img src="./assets/figma.png" style="width:100%">
+                                <h3>Figma</h3>
+                            </div>
+                            <button class="scroll-btn left-btn" onclick="scrollLeft3()">&#8249;</button>
+                            <button class="scroll-btn right-btn" onclick="scrollRight(3)">&#8250;</button>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="projects hidden-content" id="projects">
+
+        <h2 class="project-heading">Recent Projects</h2>
+
+        <hr> <br>
+
+        <div class="album">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="./assets/MovieVault.png" class="card-img-top" alt="MovieVault">
+                        <div class="card-body">
+                            <h3>MovieVault</h3>
+                            <p class="card-text">A full-stack web app for searching, saving, and managing favorite movies with user authentication.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/chaitanya170505/MovieVault" target="_blank">
+                                        <button type="button" class="btn btn-sm project-btn">View</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="./assets/Task Management App.png" class="card-img-top" alt="Amazon Clone">
+                    <div class="card-body">
+                        <h3>Task-Management-App</h3>
+                        <p class="card-text">Built a full-stack task management app with authentication, allowing users to create, track, and filter tasks by status.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="https://github.com/chaitanya170505/task-management-app" target="_blank">
+                                    <button type="button" class="btn btn-sm project-btn">View</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="./assets/book finder.png" class="card-img-top" alt="Amazon Clone">
+                        <div class="card-body">
+                            <h3>Book Finder Website</h3>
+                            <p class="card-text">A Book Finder application using Node.js, Express.js, and Axios to interact with the Google Books API.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://book-finder-z5i4.onrender.com" target="_blank">
+                                        <button type="button" class="btn btn-sm project-btn">View</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="./assets/amaozn-clone.png" class="card-img-top" alt="Amazon Clone">
+                        <div class="card-body">
+                            <h3>Amazon Clone</h3>
+                            <p class="card-text">A replica of the Amazon platform, built from scratch with HTML, CSS, and JavaScript.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://chaitanya170505.github.io/chai_pj7/" target="_blank">
+                                        <button type="button" class="btn btn-sm project-btn">View</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="./assets/Hotstar_clone.png" class="card-img-top" alt="Amazon Clone">
+                        <div class="card-body">
+                            <h3>Disney+Hotstar Clone</h3>
+                            <p class="card-text">A replica of the Hotstar platform, built from scratch with HTML, CSS, and JavaScript.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://chaitanya170505.github.io/chai_pj4/" target="_blank">
+                                        <button type="button" class="btn btn-sm project-btn">View</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="./assets/qr-code.png" class="card-img-top" alt="Amazon Clone">
+                        <div class="card-body">
+                            <h3>QR Code Generator</h3>
+                            <p class="card-text">Built with Node.js and Express, utilizing local modules to create and manage QR codes.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://chai-pj9.onrender.com/" target="_blank">
+                                        <button type="button" class="btn btn-sm project-btn">View</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <!-- add upcoming projects here -->
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="contact hidden-content" id="contact">
+
+        <h2 class="contact-heading">Contact Me</h2>
+
+        <hr> <br>
+
+        <div class="mail-container">
+            <a class="mail-link" href="mailto:mogallachaitanya@gmail.com">
+                <div class="mail-img">
+                    <img src="./assets/mail.png" alt="">
+                </div>
+            </a>
+
+            <a class="mail-link" href="mailto:mogallachaitanya@gmail.com">mogallachaitanya@gmail.com</a></p>
+        </div>
+
+        <br>
+
+        <div class="contact-social">
+            <p>You can also contact me through:</p>
+            <div class="social-container">
+                        <a href="https://www.linkedin.com/in/chaitanya-mogalla-811221301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style="color: white; text-decoration: none;" target="_blank"><div class="linkedin social-border1"><i class="fa-brands fa-linkedin inner-social1"></i></div></a>
+                        <a href="https://www.instagram.com/_m_chaitanya__?igsh=ZHNxeWxzNjkxYmgz" style="color: white; text-decoration: none; " target="_blank"><div class="instagram social-border1"><i class="fa-brands fa-instagram inner-social1"></i></div></a>
+                        <a href="https://x.com/ChaitanyaM1718" style="color: white; text-decoration: none;" target="_blank"><div class="twitter social-border1"><i class="fa-brands fa-twitter inner-social1"></i></div></a>
+            </div>
+        </div>
+
+    </section>   
+
+
+    <footer class="footer">
+        <p class="footer-text">&copy; <span id="current-year"></span> Chaitanya_M. All rights reserved.</p>
+    </footer> 
+
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
