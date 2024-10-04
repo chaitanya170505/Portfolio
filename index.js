@@ -31,7 +31,7 @@ type();
 let resume_btn = document.getElementById("resume-btn");
 
 resume_btn.addEventListener('click',()=>{
-    alert('Working on it.');
+    alert('Resume will be downloaded in PDF format.');
 })
 
 
