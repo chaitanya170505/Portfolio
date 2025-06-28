@@ -157,8 +157,8 @@ B.Tech in CSE (2022–Present) at Sir C.R. Reddy College of Engineering - Curren
       case "skills":
         return `Frontend: HTML, CSS, JavaScript, Bootstrap, jQuery, React\n
 Backend: Node.js, Express.js, REST APIs, PostgreSQL, Socket.io\n
-Programming: C, C++, Python, Git\n
-Design: Canva\n
+Programming: C, C++, Python\n
+Tools: Canva, Postman, Git\n
 Specialization: NLP`;
       case "about_me":
         return `I'm a full-stack developer passionate about building real-world applications using React and Node.js. I enjoy solving problems with code.`;
