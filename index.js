@@ -110,7 +110,7 @@ const intents = {
   greet: ["hi", "hello", "hey", "good morning", "good evening"],
   about_me: ["who are you", "tell me about yourself", "about you", "introduce yourself"],
   skills: ["your skills", "what can you do", "what are you good at", "tell me your skills", "skills?"],
-  projects: ["your projects", "what have you built", "show me your work", "portfolio", "your work"],
+  projects: ["your projects", "projects" "what have you built", "show me your work", "portfolio", "your work"],
   contact: ["how to contact you", "your email", "contact info", "reach you", "email?"],
   education: ["your education", "where did you study", "education background", "studies", "college"]
 };
